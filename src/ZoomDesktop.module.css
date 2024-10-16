@@ -1,0 +1,29 @@
+.container {
+  padding: 20px;
+}
+
+.smallImage {
+  width: 500px;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+.largeContainer {
+  width: 90vw;
+  height: 90vh;
+  border: 2px solid blue;
+  background-color: rgba(113, 237, 96, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.controls {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background: black;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+}
